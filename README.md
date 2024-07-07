@@ -10,7 +10,7 @@ After analyzing the dataset, cleaning and merging rows and columns to combine po
 The three main datasets I used are:
   - rat_sightings_20240701.csv: # <a href="https://data.cityofnewyork.us/Social-Services/Rat-Sightings/3q43-55fe/about_data">reported rat sightings to NYC's 311 system</a> from 2010 until the end of june 2024
   - dirty-condition-2023.csv: # <a href="https://data.cityofnewyork.us/Social-Services/311-Service-Requests-from-2010-to-Present/erm2-nwe9/about_data">reported dirty conditions</a> with descriptor «trash» to NYC's 311 system in 2023
-  - population-nyc-2022.csv: # population of nyc in 2020 by zip code/borough from <a href="https://censusreporter.org/data/table/?table=B01003&geo_ids=04000US36,140|04000US36,860|04000US36&primary_geo_id=04000US36#">U.S. census</a>
+  - population-nyc-2022.csv: # population of nyc in 2020 by zip code and borough from <a href="https://censusreporter.org/data/table/?table=B01003&geo_ids=04000US36,140|04000US36,860|04000US36&primary_geo_id=04000US36#">U.S. census</a>
 
 **Data analysis**:\
 I analyzed the datasets using Python and pandas. To create different dataframes, I cleaned, merged, and filtered the data, which provided a quick overview. By plotting the data with simple graphics, I uncovered some interesting patterns. After selecting the data I wanted to visualize, I exported the specific dataframes as CSV or GeoJSON files using Python. Then, I prepared the data in Google Sheets for Datawrapper. For the maps, I imported the GeoJSON files into QGIS for further editing. Finally, I exported the maps from QGIS as SVG files and make them prettier in Illustrator and to add annotations for a scrollytelling piece with ai2html.
