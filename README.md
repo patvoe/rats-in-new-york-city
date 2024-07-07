@@ -1,8 +1,10 @@
-**Rats in New York City**
+***Rats in New York City***
 
-*What I aimed to accomplish*: In the street of my accommodation in South Harlem, I often see many rats searching for food in the trash bags left outside when I walk around. I found out that there is a dataset on rat sightings from NYC 311's system. So, I wanted to learn more about the rats in NYC. How big is the rat problem? And where do rats live, or where do they like to stay? Are there any patterns?
+*What I aimed to accomplish*: 
+In the street of my accommodation in South Harlem, I often see many rats searching for food in the trash bags left outside when I walk around. I found out that there is a dataset on rat sightings from NYC 311's system. So, I wanted to learn more about the rats in NYC. How big is the rat problem? And where do rats live, or where do they like to stay? Are there any patterns?
 
-*Findings*: After analyzing the dataset, cleaning and merging rows and columns to combine population data with rat sightings into a dataframe, I created several graphs. This revealed matching geographic patterns between reported rat sightings, New York's subway lines, and sidewalk trash reports. Additionally, I found that rat sightings in the city have increased significantly since the pandemic began in 2019.
+*Findings*: 
+After analyzing the dataset, cleaning and merging rows and columns to combine population data with rat sightings into a dataframe, I created several graphs. This revealed matching geographic patterns between reported rat sightings, New York's subway lines, and sidewalk trash reports. Additionally, I found that rat sightings in the city have increased significantly since the pandemic began in 2019.
 
 *Data collection*: 
 The three main datasets I used are:
