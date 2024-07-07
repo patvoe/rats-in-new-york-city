@@ -1,4 +1,4 @@
-#Rats in New York City
+# Rats in New York City
 
 **What I aimed to accomplish**:\
 In the street of my accommodation in South Harlem, I often see many rats searching for food in the trash bags left outside when I walk around. I found out that there is a dataset on rat sightings from NYC 311's system. So, I wanted to learn more about the rats in NYC. How big is the rat problem? And where do rats live, or where do they like to stay? Are there any patterns?
