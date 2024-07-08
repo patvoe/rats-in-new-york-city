@@ -316,6 +316,7 @@
         the peak year of 2022. Compared to the pre-pandemic year of 2019, there
         was an increase of over 50 percent.
       </p>
+
       <iframe
         title="More than half as many rat sightings in 2023 compared to 2019"
         aria-label="Interactive line chart"
@@ -14243,9 +14244,9 @@
       hideNote();
 
       d3.select("#step-one").on("stepout", function (e) {
-        console.log(e.detail.direction);
+        // console.log(e.detail.direction);
         if (e.detail.direction === "up") {
-          console.log("step out step one up");
+          // console.log("step out step one up");
           // undo the changes from step one
           hideNote();
           d3.select("#subwayLines-d").classed("hidden", true);
@@ -14254,7 +14255,7 @@
       });
 
       d3.select("#step-one").on("stepin", function (e) {
-        console.log("Got to step one");
+        // console.log("Got to step one");
         // undo changes from step two
         d3.select("#dirty-conditions-wide").style("display", "none");
         d3.select("#dirty-conditions-small").style("display", "none");
@@ -14278,7 +14279,7 @@
         hideNote();
 
         // do changes for step two
-        console.log("Got to step two");
+        // console.log("Got to step two");
 
         d3.select("#dirty-conditions-wide").style("display", "block");
         d3.select("#dirty-conditions-small").style("display", "block");
@@ -14370,7 +14371,7 @@
               element.previousElementSibling.dispatchEvent(event);
             }
             element.dispatchEvent(event);
-            console.log("Step exit: ", element.id, direction);
+            // console.log("Step exit: ", element.id, direction);
           });
 
         window.addEventListener("resize", scroller.resize);
